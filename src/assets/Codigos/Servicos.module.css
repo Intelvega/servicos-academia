@@ -1,0 +1,74 @@
+.conteudo{
+    width: 100%;
+    height: auto; /* Ajuste conforme necessário */
+    background-image: url('./Img/homem-jovem-fitness-em-estudio.jpg');
+    background-size: cover;/* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    /* transform: scaleX(-1); */
+    display: block;
+}
+
+.conteudo{
+    display: flex;
+    padding-top: 200px;
+    flex-direction: column;
+}
+
+.title{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+}
+
+.caixa div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: brown;
+    width: 30%;
+    margin: 10px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+@media screen and (max-width: 1362px){
+
+    .caixa, .title{
+        width: 60%;
+       
+    }
+
+    .caixa div{
+        width: 40%;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .caixa, .title{
+        width: 100%;
+        font-size: 12px;
+    }
+}
+
+
+/* .caixa div svg{
+    //logo
+} */
+    
+    

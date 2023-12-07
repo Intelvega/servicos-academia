@@ -1,0 +1,156 @@
+.CorpoS{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CorpoS2 {
+    width: 60%;
+}
+
+.CorpoS a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(220, 53, 69);
+    padding-top: 20px;
+}
+
+.CorpoS a:hover{
+    color: azure;
+}
+
+.txtCards{
+    padding-top: 50px;
+    width: 80%;
+}
+
+.txtCards h2{
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: justify;
+}
+
+.cards{
+    padding-top: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards div{
+    max-width: 30%;
+    margin-bottom: 20px;
+    color: rgb(220, 53, 69);
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.cards div strong{
+    font-size: 18px;
+}
+
+.cards div:hover {
+    background-color: aliceblue;
+    transform: scale(1.2);
+}
+
+.ti{
+    width: 50%;
+    margin: auto;
+}
+
+.ti img{
+    border: 2px solid #333; /* Largura, estilo e cor da borda */
+    border-radius: 80px; /* Opcional: Adiciona cantos arredondados */
+    object-fit: cover;
+    max-width: 100%;
+
+}
+
+@media screen and (max-width: 1500px) {
+    .cards div{
+        max-width: 45%;
+        
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .CorpoS {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ti{
+        order: 1;
+    }
+
+    .CorpoS2 {
+        width: 100%;
+        order: 2;
+        text-align: center;
+    }
+
+    .ti img{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .txtCards{
+        margin: auto;
+    }
+
+    .cards{
+        width: 100%;
+        margin: auto;
+        justify-content:space-around;
+    }
+
+    .cards div{
+        max-width: 40%;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    .CorpoS{
+        padding: 0;
+        margin: 0;
+    }
+
+    h1,h2{
+        font-size: 22px;
+    }
+
+    .cards{
+        
+        display: flex;
+        justify-content:space-around;
+        width: 90%;
+    }
+
+    .cards div {
+        font-size: 15px;
+    }
+
+    .ti{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .cards{
+        width: 100%;
+    }
+
+    .cards div{
+        width: 100%;
+         /* color: rgb(25, 76, 121); */
+    }
+}
