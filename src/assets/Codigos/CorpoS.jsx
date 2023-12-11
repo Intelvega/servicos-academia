@@ -14,7 +14,7 @@ export default ()=>{
 
     return(
         <div className={style.CorpoS}>
-            <div className={style.CorpoS2} >W
+            <div className={style.CorpoS2} >
 
                 <h1>Corpo mais saudável e definido</h1>
                 <a href="https://www.instagram.com/tiago.dam/" target="_blank" ><Button variant="light">Entrar em contato</Button>{' '}</a>
