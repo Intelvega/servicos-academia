@@ -1,18 +1,18 @@
 .conteudo{
     width: 100%;
     height: auto; /* Ajuste conforme necessário */
-    background-image: url('./Img/homem-jovem-fitness-em-estudio.jpg');
+    background-image: url('./Img/aca4.jpg');
     background-size: cover;/* Ajusta o tamanho da imagem para cobrir todo o elemento */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     /* transform: scaleX(-1); */
-    display: block;
 }
 
 .conteudo{
     display: flex;
     padding-top: 200px;
     flex-direction: column;
+    align-items: center;
 }
 
 .title{

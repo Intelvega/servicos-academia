@@ -40,10 +40,14 @@
     justify-content: space-between;
 }
 
+.cards img{
+    max-width: 100%;
+}
+
 .cards div{
     max-width: 30%;
     margin-bottom: 20px;
-    color: rgb(220, 53, 69);
+    color: rgb(7, 7, 7);
     text-align: justify;
     background-color: rgb(255, 255, 255);
     padding: 20px;
