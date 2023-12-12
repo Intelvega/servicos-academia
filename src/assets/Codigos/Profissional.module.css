@@ -1,0 +1,35 @@
+.profissional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0 60px 0;
+}
+
+.profissional div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 40px 0;
+}
+
+.profissional h1 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.profissional p{
+    color: black;
+}
+
+.profissional img {
+    max-width: 60%;
+    border: 1px solid transparent;
+    border-radius: 0 20px 0px 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .profissional p{
+        font-size: 20px;
+    }
+}

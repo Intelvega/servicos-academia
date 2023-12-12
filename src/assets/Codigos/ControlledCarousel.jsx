@@ -2,6 +2,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import aca from './Img/aca1.jpg';
 import aca2 from './Img/aca2.jpg';
 import aca3 from './Img/aca3.jpg';
+import resu1 from './Img/resu1.png'
+import resu2 from './Img/resu2.png'
+import resu3 from './Img/resu3.png'
 import style from './ControlledCarousel.module.css'
 
 function DarkVariantExample() {
@@ -9,7 +12,7 @@ function DarkVariantExample() {
     <div style={{backgroundColor: 'black', }} >
     
     <div className={style.ultrapasse} >
-      <h1>Ultrapasse seus limites com nossos serviços</h1>
+      <h1>Resultados</h1>
     </div>
     
 
@@ -17,7 +20,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={aca}
+          src={resu1}
           alt="primeiro"
           style={{ maxHeight: '700px', objectFit: 'contain' }}
         />
@@ -29,7 +32,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={aca2}
+          src={resu2}
           alt="segundo"
           style={{ maxHeight: '700px', objectFit: 'contain' }}
         />
@@ -41,7 +44,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={aca3}
+          src={resu3}
           alt="terceiro"
           style={{ maxHeight: '700px', objectFit: 'contain' }}
         />

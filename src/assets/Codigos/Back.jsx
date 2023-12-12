@@ -4,6 +4,7 @@ import Servicos from './Servicos'
 import Carrossel from './ControlledCarousel'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './Footer';
+import Profissional from './Profissional';
 
 
 export default ()=> {
@@ -14,6 +15,7 @@ export default ()=> {
             
         <Servicos></Servicos>
         <CorpoS></CorpoS>
+        <Profissional></Profissional> 
         <Carrossel></Carrossel>
         <Footer></Footer>
 
